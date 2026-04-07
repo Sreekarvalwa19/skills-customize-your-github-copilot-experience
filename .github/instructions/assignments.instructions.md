@@ -1,65 +1,27 @@
 ---
-applyTo:
-  - "assignments/*/README.md"
+applyTo: "assignments/**/*.md"
 ---
 
-# Assignment File Instructions
+# Assignment Markdown Structure Guidelines
 
-All assignment README files should follow a consistent structure to provide students with a clear and engaging experience.
+All assignment markdown files should follow these guidelines:
 
-## Assignment Structure
+## 1. Template Usage
 
-Every assignment README.md must include the following sections in this exact order:
+- Assignment markdown files must follow the structure in [`templates/assignment-template.md`](../../templates/assignment-template.md).
+- The assignment must be created as a `README.md` file
+- Do not remove or skip required sections from the template.
 
-### 1. Header with Title
-- Start with the emoji 📘 followed by "Assignment: [Assignment Title]"
-- Use H1 heading level (#)
+## 2. Section Guidance
 
-### 2. Objective Section
-- Use 🎯 emoji with an "Objective" heading (H2)
-- Provide a brief, clear description of what students will build or accomplish
-- Keep it motivating and outcome-focused
+The section headers should reflect the structure in the template, including the exact icon usage.
 
-### 3. Tasks Section
-- Use 📝 emoji with a "Tasks" heading (H2)
-- Each task should be a subsection (H3) with 🛠️ emoji and the task title
-- Each task must include:
-  - **Description** subheading (H4): Clear explanation of what needs to be done
-  - **Requirements** subheading (H4): Bulleted list of what the completed program should do
+- **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
+- **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
+- **Tasks**: For each task:
+   - Use a specific, action-oriented task name
+   - In the Description, clearly state what the student must do.
+   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
+   - Provide example input/output in code blocks if helpful.
 
-## Formatting Standards
-
-- Use emojis consistently as shown in the template for visual engagement
-- Keep descriptions concise and student-friendly
-- Requirements should be specific, measurable, and achievable
-- Use clear, encouraging language that motivates students to learn
-- Maintain proper markdown formatting with correct heading hierarchies
-
-## Example Structure
-
-```
-# 📘 Assignment: [Title]
-
-## 🎯 Objective
-[Description]
-
-## 📝 Tasks
-
-### 🛠️ [Task 1]
-
-#### Description
-[What to do]
-
-#### Requirements
-- [Requirement 1]
-- [Requirement 2]
-
-### 🛠️ [Task 2]
-
-#### Description
-[What to do]
-
-#### Requirements
-- [Requirement 1]
-- [Requirement 2]
-```
+Do not include extra sections unless explicitly specified.
